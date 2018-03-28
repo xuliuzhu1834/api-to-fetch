@@ -11,7 +11,7 @@
  将会生成
  
  ````javascript
- fetch('/test/api/user/login', {
+ fetch('/test/login', {
    method: 'POST',
    headers: { 'Content-Type': 'application/json'},
    body: JSON.stringify({ usename, pwd }),
