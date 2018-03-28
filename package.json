@@ -1,0 +1,22 @@
+{
+  "name": "api-to-fetch",
+  "version": "1.0.0",
+  "description": "根据yapi的api文档生成fetch模板代码",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yapi"
+  ],
+  "author": "brook",
+  "license": "ISC",
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "tough-cookie": "^2.3.4",
+    "url-parse": "^1.2.0",
+    "yargs": "^11.0.0"
+  }
+}
